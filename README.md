@@ -51,7 +51,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 # **Website Screenshot**
-![Website Screenshot](./images/webscreenshot.png)
+![Website Screenshot](./images/wesitescreenshot.png)
 
 ## **HTML Screenshot**
 ![HTML Screenshot](./images/htmlscreenshot.png)
