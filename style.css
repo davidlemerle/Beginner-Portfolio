@@ -3,7 +3,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
- 
 }
 
 .header {
@@ -12,12 +11,10 @@ body {
     color: #ffffff;
     max-height: 100px;
 }
-
 .header h1 {
     display: inline-block;
     font-size: 40px;
-    justify-content: center;
-
+    text-transform: uppercase;
 }
 #profile {
     height: 100px;
@@ -29,16 +26,14 @@ body {
     font-family: serif;
     font-size: 30px;
 }
-
 .header nav ul {
     list-style-type: none;
+    
 }
-
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
 .container {
     position: relative;
   }
@@ -75,12 +70,16 @@ body {
 .maintitle {
     text-align: right;
     font-size: 400%;
-    font-weight: bold;
+    font-weight: normal;
     border-right: solid limegreen;
+    font-style: normal;
     
 }
 #description {
     font-size: 150%;
+    font-family: monospace;
+    background-color: black;
+    text-align: justify;
  } 
 
 #item3 {
@@ -137,6 +136,7 @@ position: relative;
     text-align: center;
 }
 
+
 a:link {
     color: limegreen;
     background-color: transparent;
@@ -144,7 +144,7 @@ a:link {
   }
   
   a:visited {
-    color: pink;
+    color: rgb(27, 97, 201);
     background-color: transparent;
     text-decoration: none;
   }
