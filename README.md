@@ -2,7 +2,7 @@
 
 ## **Description**
 
-A portfolio of work to showcase my skills and talents to employers looking to fill a part-time or full-time position.
+A portfolio of work to showcase my skills and talents to potential employers.
 
 ## **Table Of Contents**
 
