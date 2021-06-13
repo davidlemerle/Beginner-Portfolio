@@ -1,34 +1,27 @@
 body {
-    background-image: url(./special.jpg);
+    background: url(./images/matrix.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #000000;
+ 
 }
-
 
 .header {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
     max-height: 100px;
-    
 }
 
 .header h1 {
     display: inline-block;
     font-size: 40px;
     justify-content: center;
-   
+
 }
-
-
 #profile {
     height: 100px;
-
 }
-
-
 .header nav {
     padding-top: 10px;
     margin-right: 20px;
@@ -75,7 +68,6 @@ body {
     font-family:  monospace; 
 
 }
-
 #aboutme {
     min-height: 200px;
 }
@@ -87,7 +79,6 @@ body {
     border-right: solid limegreen;
     
 }
-
 #description {
     font-size: 150%;
  } 
@@ -146,8 +137,29 @@ position: relative;
     text-align: center;
 }
 
-
-
+a:link {
+    color: limegreen;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
   
 
