@@ -137,6 +137,13 @@ position: relative;
 }
 
 
+footer {
+  width: 100%;
+  background-color: #1e2127;
+  color: #ffffff;
+  text-align:center;
+}​
+
 a:link {
     color: limegreen;
     background-color: transparent;
@@ -161,7 +168,16 @@ a:link {
     text-decoration: underline;
   }
 
+@media screen and (max-width: 768px) {
+    body {
+      width: 100%;
+      display: block;
+    }
+  }
   
-
-
-  
+  @media screen and (max-width: 576px) {
+    body {
+      width: 100%;
+      display: block;
+    }
+  }
